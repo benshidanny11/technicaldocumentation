@@ -3,7 +3,7 @@
     display: flex;
 }
 #navbar{
-    height: 100%;
+  height: 100%;
   width: 23%;
   position: fixed;
   z-index: 1;
@@ -14,6 +14,11 @@
   padding-top: 20px;
 
 }
+
+.main {
+  margin-left: 23%;
+}
+
 .header-sidebar{
   width: 100%;
   height: 50px;
@@ -24,4 +29,52 @@
 }
 #doc-title{
   margin: 0px 0px 0px 0px;
+  font-size: 33px;
+}
+
+div ul {
+  border-bottom: 1px solid rgb(196, 196, 196);
+  margin: 0%;
+  padding: 10px 0px 10px 25px;
+}
+
+#first-link {
+  padding-top: 0;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+#headers {
+  padding-left: 20px;
+}
+
+#headers h1{
+  font-size: 33px;
+}
+
+#headers p{
+  font-size: 18px;
+  padding-left: 27px;
+}
+
+#headers ul {
+  border: none;
+  padding-left: 80px;
+  padding-top: 0;
+}
+
+#headers ul p{
+  font-size: 18px;
+  padding-left: 0;
+}
+
+.special-heading {
+  width: 90%;
+  margin: auto;
+  padding: 1px 0px;
+  background-color: rgb(240, 240, 240);
 }
